@@ -5,10 +5,15 @@
     "http": "^0.0.1-security",
     "socket.io": "^4.4.1"
   },
+  "scripts": {
+    "start": "nodemon --max-old-space-size=8192 index-server.js"
+  },
   "devDependencies": {
     "nodemon": "^2.0.15"
   },
   "nodemonConfig": {
-    "ignore": ["reports/*"]
+    "ignore": [
+      "reports/*"
+    ]
   }
 }
