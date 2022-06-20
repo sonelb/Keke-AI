@@ -1,6 +1,5 @@
-// BABA IS Y'ALL SOLVER - DFS TEMPLATE
+// BABA IS Y'ALL SOLVER - Monte carlo tree search TEMPLATE
 // Version 1.0
-// Code by Sarah
 
 // get imports (NODEJS)
 const simjs = require("../js/simulation");
